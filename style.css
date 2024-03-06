@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+#container{
+    height: 44rem;
+    background-image: url(Netflix-Welcome-Page.jpg);
+}
+#container img{
+    opacity: 0.5;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    width: 79vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarchild {
+    height: 10vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#Netflix-Logo-svg{
+    fill: red;
+    height: 2.35rem;
+}
+.options {
+    width: 15.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.options select {
+    height: 1.6rem;
+    width: 6rem;
+    border-radius: 4px;
+}
+.options button {
+    height: 1.6rem;
+    width: 6rem;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+}
+
+#introcontainer{
+    height: 38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#intro {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#intro h1{
+    font-size: 70px;
+}
+#intro p{
+    font-size: 30px;
+    margin-top: 1.5rem;
+}
+#foralignment{
+    display: flex;
+    margin-top: 1.5rem;
+}
+#foralignment input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+}
+#foralignment button{
+    width: 10rem;
+    background-color: red;
+    color: white;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+}
+hr{
+    height: 0.7rem;
+    background-color: rgb(46, 42, 42);
+    border: none;
+}
+#FEATURES{
+    margin-top: 0.7rem;
+    background-color: black;
+}
+.feature1, .feature2, .feature3, .feature4 {
+    height: 40rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.FEATURES img{
+    height: 30rem;
+}
+.feature1 h1, .feature2 h1, .feature3 h1, .feature4 h1{
+    font-size: 3rem;
+}
+.feature1 h2, .feature2 h2, .feature3 h2, .feature4 h2{
+    margin-top: 1.5rem;
+}
+.img-container{
+    position: relative;
+    display: inline-block;
+}
+.stranger-things-box {
+    position: absolute;
+    height: 6rem;
+    width: 25rem;
+    top: 21.5rem;
+    left: 8rem;
+    border: 3px solid gray;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.stranger-things-box-ka-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+}
+#stranger-things-box-img{
+    height: 5.5rem;
+    margin-left: 0.4rem;
+    border-radius: 10px;
+}
+.secondp{
+    color: blue;
+}
+#frequently-asked-question-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2rem;
+    color: white;
+    background-color: black;    
+}
+.frequently-asked-question {
+    background-color: black;
+    padding-bottom: 3rem;
+}
+.frequently-asked-question h2{
+    color: white;
+    padding-left: 3rem;
+}
+.frequently-asked-question ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 2rem;
+}
+.frequently-asked-question ul li{
+    padding-left: 1rem;
+}
+.frequently-asked-question ul li h2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 1rem;
+    background-color: rgb(59, 59, 59);
+    margin-top: 1rem;
+    width: 80vw;
+    height: 5rem;
+    border-radius: 7px;
+}
+.foralignment2-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#foralignment2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foralignment2-h2{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+#foralignment2 input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+}
+#foralignment2 button{
+    width: 10rem;
+    background-color: red;
+    color: white;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+}
+.footerclass{
+    height: 10rem;
+}
+footer {
+    padding-left: 15rem;
+    padding-right: 5rem;
+    background-color: black;
+    height: 15rem;
+    padding-top: 3rem;
+}
+.footerhelpcenter{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    color: whitesmoke;
+}
+.footerclass p{
+    margin-bottom: 2rem;
+}
+.footerhelpcenter li a, p{
+    color: rgb(197, 197, 197);
+    text-transform:capitalize;
+}
+.footerhelpcenter li{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
